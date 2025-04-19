@@ -27,7 +27,16 @@ PC_out : The current value of the PC
 
 
 ## Shift_Left26To28 
-It is moving all bits in a binary value to the left by 2 
+It is moving all bits in a binary value to the left by 2  (jump instructions)
+
+#### input
+ SL_in : It is 26-bit address 
+ 
+#### output	
+ SL_out : It is the shifted value after performing the shift-left operation
+
+
+ 
 
 
 ÷ف
