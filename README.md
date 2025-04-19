@@ -26,7 +26,12 @@ PC Store the address of the next instruction to be executed
 PC_out : The current value of the PC
 
 
-## Shift_Left26To28
+## Shift_Left26To28 
+It is moving all bits in a binary value to the left by 2 
+
+
+÷ف
+÷لإ ه
 
 
 
