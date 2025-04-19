@@ -40,10 +40,10 @@ It is moving all bits in a binary value to the left by 2  (jump instructions)
 It is moving all bits in a binary value to the left by 2 (multiplying the value by 4)
 	
 #### input : 
-	 SL_in : It is 32-bit from sign-extented
+SL_in : It is 32-bit from sign-extented
 
 #### output	:
-	 SL_out : It is the shifted value after performing the shift-left operation
+SL_out : It is the shifted value after performing the shift-left operation
 
 
 
