@@ -47,8 +47,8 @@ SL_out : It is the shifted value after performing the shift-left operation
 
 
 
-÷ف
-÷لإ ه
+
+
 
 
 
