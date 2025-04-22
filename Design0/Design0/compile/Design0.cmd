@@ -1,0 +1,1 @@
+-w -s "d:\project_vhdl\Design0\library.cfg"  -j "d:\project_vhdl\Design0\Design0\projlib.cfg"  -d "d:\project_vhdl\Design0\Design0\compile\"  -work Design0 -dbg -e 100 "d:\project_vhdl\Design0\Design0\src\Conrol_Unit.vhd" 

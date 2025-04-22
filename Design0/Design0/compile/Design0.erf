@@ -1,0 +1,4 @@
+MESSAGE "File: d:\project_vhdl\Design0\Design0\src\Conrol_Unit.vhd" 
+MESSAGE "Compile Entity "ControlUnit"" 
+MESSAGE "Compile Architecture "rtl" of Entity "ControlUnit"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 
