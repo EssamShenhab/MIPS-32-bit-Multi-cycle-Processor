@@ -2,6 +2,14 @@
 
 ---
 
+=======
+>>>>>>> Ali
+
+---
+
+=======
+>>>>>>> Essam
+
 🔸 **1. ALU.vhd - Arithmetic Logic Unit**
 
 This module performs arithmetic and logical operations required by the processor.  
@@ -118,3 +126,16 @@ This multiplexer selects between four 32-bit inputs.
 📤 **Output:**
 
 - Output: Selected value (32-bit).
+
+
+
+---
+
+=======
+>>>>>>> Merna
+
+
+---
+
+=======
+>>>>>>> Omar
