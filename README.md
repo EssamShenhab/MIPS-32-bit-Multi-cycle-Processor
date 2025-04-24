@@ -4,6 +4,9 @@ This project contains essential components used in a **multi-cycle MIPS-like pro
 
 ---
 
+=======
+>>>>>>> Ali
+
 ## 🧠 Overview
 
 ### 🔸 1. `Memory.vhd` - Main Memory
@@ -82,3 +85,8 @@ Implements the 32 general-purpose registers used in the processor. Allows simult
 ├── MDR.vhd          # Memory Data Register
 ├── Registers.vhd    # Register File (32 general-purpose registers)
 └── README.md        # Project documentation
+
+---
+
+=======
+>>>>>>> Essam
