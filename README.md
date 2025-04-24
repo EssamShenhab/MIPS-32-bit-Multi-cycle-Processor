@@ -90,3 +90,15 @@ Implements the 32 general-purpose registers used in the processor. Allows simult
 
 =======
 >>>>>>> Essam
+
+
+---
+
+=======
+>>>>>>> Merna
+
+
+---
+
+=======
+>>>>>>> Omar
