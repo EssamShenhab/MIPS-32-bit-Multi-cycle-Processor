@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # MIPS-32-bit-Multi-cycle-Processor
 
 ---
@@ -127,3 +126,28 @@ This multiplexer selects between four 32-bit inputs.
 📤 **Output:**
 
 - Output: Selected value (32-bit).
+
+---
+
+
+=======
+>>>>>>> Merna
+
+
+---
+
+=======
+>>>>>>> Omar
+
+---
+
+## 🗂 File Structure
+
+```bash
+.
+├── Memory.vhd       # Main memory (instruction/data memory)
+├── MDR.vhd          # Memory Data Register
+├── Registers.vhd    # Register File (32 general-purpose registers)
+└── README.md        # Project documentation
+
+---
