@@ -1,0 +1,5 @@
+40
+~E 1 "./src/Conrol_Unit.vhd" 5 controlunit
+~A 1 "./src/Conrol_Unit.vhd" 31 rtl
+~E 1 "./src/Conrol_Unit.vhd" 5 signextend
+~A 1 "./src/Sign_Extend.vhd" 12 rtl
