@@ -5,7 +5,6 @@
 =======
 >>>>>>> Ali
 
-<<<<<<< HEAD
 ## 🧠 Overview
 
 ### 🔸 1. `Memory.vhd` - Main Memory
