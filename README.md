@@ -139,3 +139,16 @@ This multiplexer selects between four 32-bit inputs.
 
 =======
 >>>>>>> Omar
+
+---
+
+## 🗂 File Structure
+
+```bash
+.
+├── Memory.vhd       # Main memory (instruction/data memory)
+├── MDR.vhd          # Memory Data Register
+├── Registers.vhd    # Register File (32 general-purpose registers)
+└── README.md        # Project documentation
+
+---
