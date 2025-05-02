@@ -1,32 +1,146 @@
-timestamp=1745279518735
+timestamp=1746209144698
+
+[alu]
+A/behavioral=A/Behavioral 21|./src/alu.vhd|23|1*80564
+B/behavioral=3*69293
+H/behavioral=0*85384
+R=./src/alu.vhd|9
+V=0*33013
+
+[alu_control]
+A/behavioral=A/Behavioral 21|./src/alu_control.vhd|20|1*83721
+B/behavioral=3*72671
+H/behavioral=0*87086
+R=./src/alu_control.vhd|9
+V=0*37809
 
 [controlunit]
-A/rtl=21|./src/Conrol_Unit.vhd|31|1*2697
-B/rtl=3*0
-H/rtl=0*14643
+A/rtl=21|./src/Conrol_Unit.vhd|31|1*73937
+B/rtl=3*60586
+H/rtl=0*81224
 R=./src/Conrol_Unit.vhd|5
 V=0*20324
 
+[instruction_register]
+A/behavioral=A/Behavioral 21|./src/Memory.vhd|22|1*89675
+B/behavioral=3*74717
+H/behavioral=0*89469
+R=./src/Instruction_Register.vhd|6
+V=0*48761
+
+[mux2_32]
+A/behavioral=A/Behavioral 21|./src/mux_2in_32bit.vhd|21|1*93061
+B/behavioral=3*76079
+H/behavioral=0*90301
+R=./src/mux_2in_32bit.vhd|9
+V=0*65346
+
+[mux2_5]
+A/behavioral=A/Behavioral 21|./src/mux_2in_5bit.vhd|21|1*91428
+B/behavioral=3*75590
+H/behavioral=0*89935
+R=./src/mux_2in_5bit.vhd|9
+V=0*52635
+
+[mux3_32]
+A/behavioral=A/Behavioral 21|./src/mux_3in_32bit.vhd|22|1*94705
+B/behavioral=3*76568
+H/behavioral=0*90672
+R=./src/mux_3in_32bit.vhd|9
+V=0*69633
+
+[mux4_32]
+A/behavioral=A/Behavioral 21|./src/mux_4in_32bit.vhd|23|1*97176
+B/behavioral=3*77638
+H/behavioral=0*91725
+R=./src/mux_4in_32bit.vhd|9
+V=0*75050
+
+[pc]
+A/behavioral=A/Behavioral 21|./src/PC.vhd|22|1*99884
+B/behavioral=3*78840
+H/behavioral=0*92801
+R=./src/PC.vhd|4
+V=0*79524
+
+[registers]
+A/behavior=21|./src/Registers.vhd|22|1*101580
+B/behavior=3*79713
+H/behavior=0*93809
+R=./src/Registers.vhd|5
+V=0*97186
+
+[shift_left26to28]
+A/behavioral=A/Behavioral 21|./src/Shift_Left26To28.vhd|15|1*104600
+B/behavioral=3*81309
+H/behavioral=0*100756
+R=./src/Shift_Left26To28.vhd|5
+V=0*101748
+
+[shift_left32to32]
+A/behavioral=A/Behavioral 21|./src/Shift_Left32To32.vhd|17|1*105938
+B/behavioral=3*81858
+H/behavioral=0*103186
+R=./src/Shift_Left32To32.vhd|7
+V=0*104196
+
 [signextend]
-A/rtl=+21|./src/Sign_Extend.vhd|12|1*1300
-R=./src/Conrol_Unit.vhd|5
-V=0*3464
+A/rtl=21|./src/Sign_Extend.vhd|12|1*72540
+B/rtl=3*59804
+H/rtl=0*80844
+R=./src/Sign_Extend.vhd|5
+V=0*24597
 
 [~A]
 ./src/Conrol_Unit.vhd~ControlUnit=0*13856*14570
 ./src/Conrol_Unit.vhd~SignExtend=0*2733*2952
-./src/Conrol_Unit.vhd~rtlControlUnit=0*15975*18727
-./src/Sign_Extend.vhd~SignExtend=0*0*274
-./src/Sign_Extend.vhd~rtlSignExtend=0*2434*2658
-ModifyID=40
+./src/Conrol_Unit.vhd~rtlControlUnit=0*82556*85308
+./src/Instruction_Register.vhd~BehavioralInstruction_Register=0*88610*88908
+./src/Instruction_Register.vhd~Instruction_Register=0*47031*47399
+./src/MDR.vhd~BehavioralInstruction_Register=0*89104*89385
+./src/Memory.vhd~BehavioralInstruction_Register=0*89564*89848
+./src/PC.vhd~BehavioralPC=0*92896*93140
+./src/PC.vhd~PC=0*78083*78379
+./src/Registers.vhd~Registers=0*93205*93740
+./src/Registers.vhd~behaviorRegisters=0*95149*95720
+./src/Shift_Left26To28.vhd~BehavioralShift_Left26To28=0*100851*101040
+./src/Shift_Left26To28.vhd~Shift_Left26To28=0*100396*100673
+./src/Shift_Left32To32.vhd~BehavioralShift_Left32To32=0*103281*103483
+./src/Shift_Left32To32.vhd~Shift_Left32To32=0*102826*103103
+./src/Sign_Extend.vhd~SignExtend=0*23259*23533
+./src/Sign_Extend.vhd~rtlSignExtend=0*80925*81149
+./src/alu.vhd~ALU=0*29824*30232
+./src/alu.vhd~BehavioralALU=0*86038*87019
+./src/alu_control.vhd~ALU_CONTROL=0*35214*35544
+./src/alu_control.vhd~BehavioralALU_CONTROL=0*87854*88432
+./src/mux_2in_32bit.vhd~BehavioralMux2_32=0*90396*90591
+./src/mux_2in_32bit.vhd~Mux2_32=0*63729*64083
+./src/mux_2in_5bit.vhd~BehavioralMux2_5=0*90030*90222
+./src/mux_2in_5bit.vhd~Mux2_5=0*51043*51393
+./src/mux_3in_32bit.vhd~BehavioralMux3_32=0*91329*91644
+./src/mux_3in_32bit.vhd~Mux3_32=0*66991*67412
+./src/mux_4in_32bit.vhd~BehavioralMux4_32=0*92382*92720
+./src/mux_4in_32bit.vhd~Mux4_32=0*72172*72640
+ModifyID=287
 Version=73
 
 [~MFT]
-0=50|0Design0.mgf|20324|11905
-1=3|1Design0.mgf|2697|1300
-3=0|3Design0.mgf|0|0
+0=311|0Design0.mgf|104196|47404
+1=68|1Design0.mgf|105938|67996
+3=66|3Design0.mgf|81858|59804
 
 [~U]
+alu=ALU 11|0*31991|0*32284
+alu_control=ALU_CONTROL 11|0*37046|0*37256
 controlunit=11|0*18803|0*19379
-signextend=11|0*3024|0*3157
+instruction_register=Instruction_Register 11|0*47984|0*48255
+mux2_32=Mux2_32 11|0*64525|0*64757
+mux2_5=Mux2_5 11|0*51828|0*52054
+mux3_32=Mux3_32 11|0*68536|0*68817
+mux4_32=Mux4_32 11|0*73787|0*74105
+pc=PC 11|0*78838|0*79055
+registers=Registers 11|0*95797|0*96179
+shift_left26to28=Shift_Left26To28 11|0*101133|0*101326
+shift_left32to32=Shift_Left32To32 11|0*103576|0*103769
+signextend=11|0*23985|0*24164
 

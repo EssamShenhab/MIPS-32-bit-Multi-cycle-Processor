@@ -1,2 +1,16 @@
-"d:\project_vhdl\Design0\Design0\src\Conrol_Unit.vhd" Design0 1 0 284471
+"g:\Designs\Design0\Design0\src\Sign_Extend.vhd" Design0 1 0 0
+"g:\Designs\Design0\Design0\src\Conrol_Unit.vhd" Design0 1 0 0
+"g:\Designs\Design0\Design0\src\alu.vhd" Design0 1 0 0
+"g:\Designs\Design0\Design0\src\alu_control.vhd" Design0 1 0 0
+"g:\Designs\Design0\Design0\src\Instruction_Register.vhd" Design0 1 0 0
+"g:\Designs\Design0\Design0\src\MDR.vhd" Design0 1 0 0
+"g:\Designs\Design0\Design0\src\Memory.vhd" Design0 1 0 0
+"g:\Designs\Design0\Design0\src\mux_2in_5bit.vhd" Design0 1 0 0
+"g:\Designs\Design0\Design0\src\mux_2in_32bit.vhd" Design0 1 0 0
+"g:\Designs\Design0\Design0\src\mux_3in_32bit.vhd" Design0 1 0 0
+"g:\Designs\Design0\Design0\src\mux_4in_32bit.vhd" Design0 1 0 0
+"g:\Designs\Design0\Design0\src\PC.vhd" Design0 1 0 0
+"g:\Designs\Design0\Design0\src\Registers.vhd" Design0 1 0 0
+"g:\Designs\Design0\Design0\src\Shift_Left26To28.vhd" Design0 1 0 0
+"g:\Designs\Design0\Design0\src\Shift_Left32To32.vhd" Design0 1 0 0
 . . 0 0 0

@@ -1,2 +1,15 @@
 .\src\Sign_Extend.vhd
 .\src\Conrol_Unit.vhd
+.\src\alu.vhd
+.\src\alu_control.vhd
+.\src\Instruction_Register.vhd
+.\src\MDR.vhd
+.\src\Memory.vhd
+.\src\mux_2in_5bit.vhd
+.\src\mux_2in_32bit.vhd
+.\src\mux_3in_32bit.vhd
+.\src\mux_4in_32bit.vhd
+.\src\PC.vhd
+.\src\Registers.vhd
+.\src\Shift_Left26To28.vhd
+.\src\Shift_Left32To32.vhd

@@ -1,5 +1,27 @@
-40
+287
+~E 1 "./src/mux_4in_32bit.vhd" 9 mux4_32
+~A 1 "./src/mux_4in_32bit.vhd" 23 behavioral
+~E 1 "./src/Instruction_Register.vhd" 6 instruction_register
+~A 1 "./src/Memory.vhd" 22 behavioral
+~E 1 "./src/alu_control.vhd" 9 alu_control
+~A 1 "./src/alu_control.vhd" 20 behavioral
+~E 1 "./src/alu.vhd" 9 alu
+~A 1 "./src/alu.vhd" 23 behavioral
 ~E 1 "./src/Conrol_Unit.vhd" 5 controlunit
 ~A 1 "./src/Conrol_Unit.vhd" 31 rtl
-~E 1 "./src/Conrol_Unit.vhd" 5 signextend
+~E 1 "./src/mux_2in_5bit.vhd" 9 mux2_5
+~A 1 "./src/mux_2in_5bit.vhd" 21 behavioral
+~E 1 "./src/mux_2in_32bit.vhd" 9 mux2_32
+~A 1 "./src/mux_2in_32bit.vhd" 21 behavioral
+~E 1 "./src/mux_3in_32bit.vhd" 9 mux3_32
+~A 1 "./src/mux_3in_32bit.vhd" 22 behavioral
+~E 1 "./src/Registers.vhd" 5 registers
+~A 1 "./src/Registers.vhd" 22 behavior
+~E 1 "./src/PC.vhd" 4 pc
+~A 1 "./src/PC.vhd" 22 behavioral
+~E 1 "./src/Shift_Left32To32.vhd" 7 shift_left32to32
+~A 1 "./src/Shift_Left32To32.vhd" 17 behavioral
+~E 1 "./src/Shift_Left26To28.vhd" 5 shift_left26to28
+~A 1 "./src/Shift_Left26To28.vhd" 15 behavioral
+~E 1 "./src/Sign_Extend.vhd" 5 signextend
 ~A 1 "./src/Sign_Extend.vhd" 12 rtl

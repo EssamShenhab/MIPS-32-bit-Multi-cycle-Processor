@@ -1,67 +1,73 @@
-acom $DSN/src/Conrol_Unit.vhd
+acom $DSN/src/alu_control.vhd
 # Compile...
-# File: d:\project_vhdl\Design0\Design0\src\Conrol_Unit.vhd
+# File: g:\Designs\Design0\Design0\src\alu_control.vhd
+# Compile Entity "ALU_CONTROL"
+# Compile Architecture "Behavioral" of Entity "ALU_CONTROL"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/sign_extend.vhd $DSN/src/conrol_unit.vhd $DSN/src/alu.vhd $DSN/src/alu_control.vhd $DSN/src/instruction_register.vhd $DSN/src/mdr.vhd $DSN/src/memory.vhd $DSN/src/mux_2in_5bit.vhd
+# Compile...
+# File: g:\Designs\Design0\Design0\src\Sign_Extend.vhd
+# Compile Entity "SignExtend"
+# Entity `SignExtend' has been skipped - no difference detected.
+# Compile Architecture "rtl" of Entity "SignExtend"
+# File: g:\Designs\Design0\Design0\src\Conrol_Unit.vhd
 # Compile Entity "ControlUnit"
 # Entity `ControlUnit' has been skipped - no difference detected.
 # Compile Architecture "rtl" of Entity "ControlUnit"
-# Error: COMP96_0077: Conrol_Unit.vhd : (125, 18): Assignment target incompatible with right side. Expected type "std_logic_vector".
-# Error: COMP96_0077: Conrol_Unit.vhd : (126, 18): Assignment target incompatible with right side. Expected type "std_logic_vector".
-# Error: COMP96_0078: Conrol_Unit.vhd : (132, 3): Unknown identifier "PCSource".
-# Error: COMP96_0133: Conrol_Unit.vhd : (132, 3): Cannot find object declaration.
-# Error: COMP96_0077: Conrol_Unit.vhd : (134, 18): Assignment target incompatible with right side. Expected type "std_ulogic".
-# Compile failure 5 Errors 0 Warnings  Analysis time :  0.0 [s]
-acom $DSN/src/Conrol_Unit.vhd
+# File: g:\Designs\Design0\Design0\src\alu.vhd
+# Compile Entity "ALU"
+# Entity `ALU' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ALU"
+# File: g:\Designs\Design0\Design0\src\alu_control.vhd
+# Compile Entity "ALU_CONTROL"
+# Entity `ALU_CONTROL' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ALU_CONTROL"
+# File: g:\Designs\Design0\Design0\src\Instruction_Register.vhd
+# Compile Entity "Instruction_Register"
+# Compile Architecture "Behavioral" of Entity "Instruction_Register"
+# File: g:\Designs\Design0\Design0\src\MDR.vhd
+# Compile Entity "Instruction_Register"
+# Entity `Instruction_Register' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Instruction_Register"
+# File: g:\Designs\Design0\Design0\src\Memory.vhd
+# Compile Entity "Instruction_Register"
+# Entity `Instruction_Register' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Instruction_Register"
+# File: g:\Designs\Design0\Design0\src\mux_2in_5bit.vhd
+# Compile Entity "Mux2_5"
+# Compile Architecture "Behavioral" of Entity "Mux2_5"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.6 [s]
+acom $DSN/src/sign_extend.vhd $DSN/src/conrol_unit.vhd $DSN/src/alu.vhd $DSN/src/alu_control.vhd $DSN/src/instruction_register.vhd $DSN/src/mdr.vhd $DSN/src/memory.vhd $DSN/src/mux_2in_5bit.vhd $DSN/src/mux_2in_32bit.vhd $DSN/src/mux_3in_32bit.vhd $DSN/src/mux_4in_32bit.vhd $DSN/src/pc.vhd
 # Compile...
-# File: d:\project_vhdl\Design0\Design0\src\Conrol_Unit.vhd
+# File: g:\Designs\Design0\Design0\src\Sign_Extend.vhd
+# Compile Entity "SignExtend"
+# Entity `SignExtend' has been skipped - no difference detected.
+# Compile Architecture "rtl" of Entity "SignExtend"
+# File: g:\Designs\Design0\Design0\src\Conrol_Unit.vhd
 # Compile Entity "ControlUnit"
 # Entity `ControlUnit' has been skipped - no difference detected.
 # Compile Architecture "rtl" of Entity "ControlUnit"
-# Error: COMP96_0077: Conrol_Unit.vhd : (125, 18): Assignment target incompatible with right side. Expected type "std_logic_vector".
-# Error: COMP96_0077: Conrol_Unit.vhd : (126, 18): Assignment target incompatible with right side. Expected type "std_logic_vector".
-# Error: COMP96_0078: Conrol_Unit.vhd : (132, 3): Unknown identifier "PCSource".
-# Error: COMP96_0133: Conrol_Unit.vhd : (132, 3): Cannot find object declaration.
-# Error: COMP96_0077: Conrol_Unit.vhd : (134, 18): Assignment target incompatible with right side. Expected type "std_ulogic".
-# Compile failure 5 Errors 0 Warnings  Analysis time :  0.0 [s]
-acom $DSN/src/Conrol_Unit.vhd
-# Compile...
-# File: d:\project_vhdl\Design0\Design0\src\Conrol_Unit.vhd
-# Compile Entity "ControlUnit"
-# Entity `ControlUnit' has been skipped - no difference detected.
-# Compile Architecture "rtl" of Entity "ControlUnit"
-# Error: COMP96_0077: Conrol_Unit.vhd : (125, 18): Assignment target incompatible with right side. Expected type "std_logic_vector".
-# Error: COMP96_0077: Conrol_Unit.vhd : (126, 18): Assignment target incompatible with right side. Expected type "std_logic_vector".
-# Error: COMP96_0078: Conrol_Unit.vhd : (132, 3): Unknown identifier "PCSource".
-# Error: COMP96_0133: Conrol_Unit.vhd : (132, 3): Cannot find object declaration.
-# Error: COMP96_0077: Conrol_Unit.vhd : (134, 18): Assignment target incompatible with right side. Expected type "std_ulogic".
-# Compile failure 5 Errors 0 Warnings  Analysis time :  0.0 [s]
-acom $DSN/src/Conrol_Unit.vhd
-# Compile...
-# File: d:\project_vhdl\Design0\Design0\src\Conrol_Unit.vhd
-# Compile Entity "ControlUnit"
-# Entity `ControlUnit' has been skipped - no difference detected.
-# Compile Architecture "rtl" of Entity "ControlUnit"
-# Error: COMP96_0077: Conrol_Unit.vhd : (125, 18): Assignment target incompatible with right side. Expected type "std_logic_vector".
-# Error: COMP96_0077: Conrol_Unit.vhd : (126, 18): Assignment target incompatible with right side. Expected type "std_logic_vector".
-# Error: COMP96_0078: Conrol_Unit.vhd : (132, 3): Unknown identifier "PCSource".
-# Error: COMP96_0133: Conrol_Unit.vhd : (132, 3): Cannot find object declaration.
-# Error: COMP96_0077: Conrol_Unit.vhd : (134, 18): Assignment target incompatible with right side. Expected type "std_ulogic".
-# Compile failure 5 Errors 0 Warnings  Analysis time :  0.0 [s]
-acom $DSN/src/Conrol_Unit.vhd
-# Compile...
-# File: d:\project_vhdl\Design0\Design0\src\Conrol_Unit.vhd
-# Compile Entity "ControlUnit"
-# Entity `ControlUnit' has been skipped - no difference detected.
-# Compile Architecture "rtl" of Entity "ControlUnit"
-# Error: COMP96_0078: Conrol_Unit.vhd : (125, 3): Unknown identifier "PPCWrite".
-# Error: COMP96_0133: Conrol_Unit.vhd : (125, 3): Cannot find object declaration.
-# Error: COMP96_0077: Conrol_Unit.vhd : (126, 18): Assignment target incompatible with right side. Expected type "std_logic_vector".
-# Error: COMP96_0078: Conrol_Unit.vhd : (132, 3): Unknown identifier "PCSource".
-# Error: COMP96_0133: Conrol_Unit.vhd : (132, 3): Cannot find object declaration.
-# Error: COMP96_0077: Conrol_Unit.vhd : (134, 18): Assignment target incompatible with right side. Expected type "std_ulogic".
-# Compile failure 6 Errors 0 Warnings  Analysis time :  0.0 [s]
-acom $DSN/src/Conrol_Unit.vhd
-# Compile...
-# File: d:\project_vhdl\Design0\Design0\src\Conrol_Unit.vhd
-# Compile Entity "ControlUnit"
-# Compile Architecture "rtl" of Entity "ControlUnit"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# File: g:\Designs\Design0\Design0\src\alu.vhd
+# Compile Entity "ALU"
+# Entity `ALU' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ALU"
+# File: g:\Designs\Design0\Design0\src\alu_control.vhd
+# Compile Entity "ALU_CONTROL"
+# Entity `ALU_CONTROL' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ALU_CONTROL"
+# File: g:\Designs\Design0\Design0\src\Instruction_Register.vhd
+# Compile Entity "Instruction_Register"
+# Entity `Instruction_Register' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Instruction_Register"
+# File: g:\Designs\Design0\Design0\src\MDR.vhd
+# Compile Entity "Instruction_Register"
+# Entity `Instruction_Register' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Instruction_Register"
+# File: g:\Designs\Design0\Design0\src\Memory.vhd
+# Compile Entity "Instruction_Register"
+# Entity `Instruction_Register' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Instruction_Register"
+# File: g:\Designs\Design0\Design0\src\mux_2in_5bit.vhd
+# Compile Entity "Mux2_5"
+# Entity `Mux2_5' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of 

@@ -35,8 +35,34 @@ Selected=
 [Files]
 /Sign_Extend.vhd=-1
 /Conrol_Unit.vhd=-1
+/alu.vhd=-1
+/alu_control.vhd=-1
+/Instruction_Register.vhd=-1
+/MDR.vhd=-1
+/Memory.vhd=-1
+/mux_2in_5bit.vhd=-1
+/mux_2in_32bit.vhd=-1
+/mux_3in_32bit.vhd=-1
+/mux_4in_32bit.vhd=-1
+/PC.vhd=-1
+/Registers.vhd=-1
+/Shift_Left26To28.vhd=-1
+/Shift_Left32To32.vhd=-1
 
 [Files.Data]
 .\src\Sign_Extend.vhd=VHDL Source Code
 .\src\Conrol_Unit.vhd=VHDL Source Code
+.\src\alu.vhd=VHDL Source Code
+.\src\alu_control.vhd=VHDL Source Code
+.\src\Instruction_Register.vhd=VHDL Source Code
+.\src\MDR.vhd=VHDL Source Code
+.\src\Memory.vhd=VHDL Source Code
+.\src\mux_2in_5bit.vhd=VHDL Source Code
+.\src\mux_2in_32bit.vhd=VHDL Source Code
+.\src\mux_3in_32bit.vhd=VHDL Source Code
+.\src\mux_4in_32bit.vhd=VHDL Source Code
+.\src\PC.vhd=VHDL Source Code
+.\src\Registers.vhd=VHDL Source Code
+.\src\Shift_Left26To28.vhd=VHDL Source Code
+.\src\Shift_Left32To32.vhd=VHDL Source Code
 
