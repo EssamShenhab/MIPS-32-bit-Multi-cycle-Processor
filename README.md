@@ -77,17 +77,6 @@ Implements the 32 general-purpose registers used in the processor. Allows simult
 
 ---
 
-## 🗂 File Structure
-
-```bash
-.
-├── Memory.vhd       # Main memory (instruction/data memory)
-├── MDR.vhd          # Memory Data Register
-├── Registers.vhd    # Register File (32 general-purpose registers)
-└── README.md        # Project documentation
-
----
-
 =======
 >>>>>>> Essam
 
@@ -102,3 +91,16 @@ Implements the 32 general-purpose registers used in the processor. Allows simult
 
 =======
 >>>>>>> Omar
+
+---
+
+## 🗂 File Structure
+
+```bash
+.
+├── Memory.vhd       # Main memory (instruction/data memory)
+├── MDR.vhd          # Memory Data Register
+├── Registers.vhd    # Register File (32 general-purpose registers)
+└── README.md        # Project documentation
+
+---
