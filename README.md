@@ -5,7 +5,6 @@
 =======
 >>>>>>> Ali
 
-<<<<<<< HEAD
 ## 🧠 Overview
 
 ### 🔸 1. `Memory.vhd` - Main Memory
@@ -73,12 +72,6 @@ Implements the 32 general-purpose registers used in the processor. Allows simult
 #### 📤 Outputs:
 
 - `read_data1`, `read_data2`: Data outputs from the two read registers.
-
-
-=======
->>>>>>> origin/Omar
----
-
 =======
 >>>>>>> Essam
 
@@ -205,10 +198,6 @@ This multiplexer selects between four 32-bit inputs.
 
 
 =======
----
-
->>>>>>> origin/Omar
-=======
 >>>>>>> Merna
 
 
@@ -216,9 +205,6 @@ This multiplexer selects between four 32-bit inputs.
 
 =======
 >>>>>>> Omar
-
-<<<<<<< HEAD
-=======
 ## 🔸 IR (Instruction Register)
 
 The Instruction Register stores the instruction fetched from memory for the processor to parse and execute.
@@ -281,10 +267,6 @@ This module shifts all bits in a 32-bit value to the left by 2 (effectively mult
 >>>>>>> origin/Omar
 
 ---
-
-=======
-<<<<<<< HEAD
-
 ## 🗂 File Structure
 
 ```bash
@@ -294,4 +276,3 @@ This module shifts all bits in a 32-bit value to the left by 2 (effectively mult
 ├── Registers.vhd    # Register File (32 general-purpose registers)
 └── README.md        # Project documentation
 =======
->>>>>>> origin/Omar
