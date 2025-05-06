@@ -7,6 +7,7 @@ entity MDR is
 	--INPUTS
 	Clock:in std_logic;
 	Data_In:in std_logic_vector(31 downto 0);
+	reset_neg  : in std_logic;	
 	--OUTPUTS
 	Data_Out:out std_logic_vector(31 downto 0)
 	);
@@ -18,7 +19,9 @@ architecture behavior of MDR is
 Begin
 	process(Clock)
 	begin
-		if rising_edge(Clock) then
+	if reset_neg = '0' then -- reset
+                 MemDataReg(0) <= (others => '0');
+	elsif rising_edge(Clock) then
 		   MemDataReg(0) <= Data_In;
 		   end if;
 	end process;
