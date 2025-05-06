@@ -6,6 +6,7 @@ entity Memory is
 	Port(
 		--INPUTS
 	    Clock : in std_logic;
+	    reset_neg : in std_logic;	
         Address   : in std_logic_vector(31 downto 0);
         MemWrite  : in std_logic;
         MemRead   : in std_logic;
@@ -69,11 +70,13 @@ signal mem:mem_type :=(
 others => "00000000" );
 
 begin
-	process(Clock)
+	process(Clock,reset_neg)
 	variable ad:integer;
 	begin
 		ad:=to_integer(unsigned(Address));
-		if rising_edge(Clock) and MemWrite='1' then
+                if reset_neg = '0' then
+                mem <= (others => (others=>'0'));
+		elsif rising_edge(Clock) and MemWrite='1' then
 			mem(ad) <=WriteData(31 downto 24);
 			mem(ad+1) <=WriteData(23 downto 16);
 			mem(ad+2) <=WriteData(15 downto 8);
